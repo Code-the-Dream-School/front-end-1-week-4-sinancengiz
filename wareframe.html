@@ -61,7 +61,7 @@
                         <video width="852" height="480" >
                           <source src="http://treehouse-code-samples.s3.amazonaws.com/html-video-and-audio/bridge.mp4" type="video/mp4">
                           <source src="http://treehouse-code-samples.s3.amazonaws.com/html-video-and-audio/bridge.ogg" type="video/ogg">
-                          <track label="English" kind="subtitles" srclang="en" src="bridge-captions.vtt" default>
+                          <track label="English" kind="subtitles" srclang="en" src="bridge-captions.vtt" default >
                         </video>
                       </div>
                 </div>
@@ -102,7 +102,8 @@
           // useful for <audio> player loops
           loop: true,
           videoWidth: '100%',
-          videoHeight: '100%'
+          videoHeight: '100%',
+          startLanguage: 'en'
         });
 
 
